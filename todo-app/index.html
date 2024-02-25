@@ -1,0 +1,28 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Advanced Todo App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Todos</h1>
+        <div class="controls">
+            <input type="text" id="filtertodo" placeholder="Filter todo">
+            <label>
+                <input type="checkbox" id="hide-completed">Hide completed
+            </label>
+        </div>
+        <div id="todos"></div>
+        <form id="addnew-todo" class="add-todo-form">
+            <input type="text" placeholder="Add todo" name="addtodo">
+            <button type="submit">Add todo</button>
+        </form>
+    </div>
+    <script src="todo-functions01.js"></script>
+    <script src="todo-app.js"></script>
+</body>
+</html>
